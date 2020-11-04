@@ -43,7 +43,8 @@ Alright, now that we've got those out of the way, we can proceed with the main p
    - Now from your repository page, go to `settings` on the right. Scroll down untill you see `change theme` under Github Pages and select one. The .yml file you've just create will be updated automatically with the theme you selected.
    - This is another step that corresponds to Etter's book in which he suggests having a theme helps in navigation and approachability of our site. 
 4. Done!
-    - Now your resume should be ready and hosted. Check it out by going to your site ` yourUsername.github.io `. You should be redirected there once you put this in your address bar. 
+    - Now your resume should be ready and hosted. Check it out by going to your site ` yourUsername.github.io `. You should be redirected there once you put this in your address bar. Check out a preview of my own resume down below using the steps I described!
+    <img src="https://github.com/jellyglitch/jellyglitch.github.io/blob/main/Resume.gif">
 
 ### More Resources
 * [Tutorial on MarkDown](https://www.markdowntutorial.com)  
