@@ -35,7 +35,7 @@ Alright, now that we've got those out of the way, we can proceed with the main p
    -  Name the repository: ` yourUsername.github.io ` using your username in place of 'yourUsername'. This is how you can have access to Github's free hosting page.
    - Make sure you set the repository to public so people can view your resume.
 2. Upload your Resume  
-   - In the main branch, upload your resume by clicking ` Add file `.
+   - In the main branch, upload your resume by clicking ` Add file ` and choosing the correct file.
    - Name it ` index.md `.
    - Then all you have to do is click ` commit new file ` at the end of the screen and ensure that it commits to the main branch. 
 3. Set a Theme  
