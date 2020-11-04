@@ -37,13 +37,13 @@ Alright, now that we've got those out of the way, we can proceed with the main p
 2. Upload your Resume  
    - In the main branch, upload your resume by clicking ` Add file ` and choosing the correct file.
    - Name it ` index.md `.
-   - Then all you have to do is click ` commit new file ` at the end of the screen and ensure that it commits to the main branch. 
+   - Click ` commit new file ` at the end of the screen and ensure that it commits to the main branch. 
 3. Set a Theme  
    - Make a new file called ` _config.yml `. This is a file that will allow you to customize your theme using Jekyll. You don't need to have anything in it, just leave it blank and it will be updated later.
-   - Now from your repository page, go to `settings` on the right. Scroll down untill you see `change theme` under Github Pages and select one. The .yml file you've just create will be updated automatically with the theme you selected.
+   - Go to `settings` on the right and scroll down until you see `change theme` under Github Pages and select one. The .yml file you've just create will be updated automatically with the theme you selected.
    - This is another step that corresponds to Etter's book in which he suggests having a theme helps in navigation and approachability of our site. 
 4. Done!
-    - Now your resume should be ready and hosted. Check it out by going to your site ` yourUsername.github.io `. You should be redirected there once you put this in your address bar. Check out a preview of my own resume down below using the steps I described!
+    - Your resume should be ready and hosted. Check it out by going to your site ` yourUsername.github.io `. You should be redirected there once you put this in your address bar. Check out a preview of my own resume down below using the steps I described!
     <p align="center"><img src="https://github.com/jellyglitch/jellyglitch.github.io/blob/main/Resume.gif"></p>
 
 ### More Resources
