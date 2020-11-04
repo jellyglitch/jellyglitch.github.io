@@ -25,18 +25,25 @@ Benefits of Markdown:
 
 For more on Markdown, go to [resources](#more-resources).  
 
-Next, you will need a Github account. This account will be where you host your resume. Github is an example of a distributive version control system(DVCS). This is another tool that allows us to make those updates I mentioned so easily. Github gives you free hosting pages which acts like a website to your resume. Using a DVCS is another step in Etter's book.
+Next, you will need a Github account. This account will be where you host your resume. Github is an example of a distributive version control system(DVCS). This is another tool that allows us to make those updates I mentioned so easily. Github gives you free hosting pages which acts like a website to your resume. It's what you would call a static website, something Etter's reccomendded once again. This is also where we'll touch on a bit of Jekyll; it will help us make a theme for our site.
 
 ## Instructions
-Alright, now that we've got those out of the way, we can proceed with the main activity.  
+Alright, now that we've got those out of the way, we can proceed with the main process.  
 
 1. Make a Repository  
-   Name the repository: [yourUser].github.io  
-   This is Github's free hosting page. They give you the page if you have that in the repository name. 
+   - On the top right hand side of the screen, under the addition icon, you can find the option to make a new repository. This will direct you to a new form to fill out to set up a repository.
+   -  Name the repository: ` yourUsername.github.io ` using your username in place of 'yourUsername'. This is how you can have access to Github's free hosting page.
+   - Make sure you set the repository to public so people can view your resume.
 2. Upload your Resume  
-   In the main branch, have you resume uploaded. 
-3. Add a yml File  
-   This is a file that will allow you to customize your theme using jekyll themes.
+   - In the main branch, upload your resume by clicking ` Add file `.
+   - Name it ` index.md `.
+   - Then all you have to do is click ` commit new file ` at the end of the screen and ensure that it commits to the main branch. 
+3. Set a Theme  
+   - Make a new file called ` _config.yml `. This is a file that will allow you to customize your theme using Jekyll. You don't need to have anything in it, just leave it blank and it will be updated later.
+   - Now from your repository page, go to `settings` on the right. Scroll down untill you see `change theme` under Github Pages and select one. The .yml file you've just create will be updated automatically with the theme you selected.
+   - This is another step that corresponds to Etter's book in which he suggests having a theme helps in navigation and approachability of our site. 
+4. Done!
+    - Now your resume should be ready and hosted. Check it out by going to your site ` yourUsername.github.io `. You should be redirected there once you put this in your address bar. 
 
 ### More Resources
 * [Tutorial on MarkDown](https://www.markdowntutorial.com)  
@@ -48,11 +55,9 @@ Alright, now that we've got those out of the way, we can proceed with the main a
 
   - **Billie Thompson** - *Provided README Template* -
     [PurpleBooth](https://github.com/PurpleBooth)
-  - group members
-
-See also the list of
-[contributors](https://github.com/PurpleBooth/a-good-readme-template/contributors)
-who participated in this project.
+  - **Ahmed Kidwai** *-Provided Peer Editing-*
+  - **Azat Nurlan Uulu** *-Provided Peer Editing-*
+  - **Theo Gerwing** *-Provided Peer Editing-*
 
 ## FAQ
 
@@ -60,4 +65,7 @@ who participated in this project.
 Markdown is better because of it's simplicity. Word has many formatting options, meanwhile Markdown has just what you need in documentation. It's also very easy to learn which is a bonus!
 
 - Why is my resume not showing up?  
-  Your resume may not appear immediately after getting hosted. You may have to wait for a few minutes or longer for it to show up on the Github pages. 
+There could be a couple of reasons:
+  1. Your resume may not appear immediately after getting hosted. You may have to wait for a few minutes or longer for it to show up on the Github pages. 
+  2. You didn't make your repository public. Go to `settings` again and at the bottom of the page you can check your repository's visibility. Make sure it's on `public`.
+  3. Your resume doesn't have the right file name. Make sure it's named `index.md`.  
